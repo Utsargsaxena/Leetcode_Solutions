@@ -9,7 +9,6 @@ public:
                 i++,j++;
             }
             else
-                
             j++;
         }
         return i == m ? 1 : 0;
