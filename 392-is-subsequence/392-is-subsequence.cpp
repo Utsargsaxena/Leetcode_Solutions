@@ -6,8 +6,10 @@ public:
         int i = 0, j = 0;
         while(i < m && j < n) {
             if(s[i] == t[j]) {
-                i++;
+                i++,j++;
             }
+            else
+                
             j++;
         }
         return i == m ? 1 : 0;
