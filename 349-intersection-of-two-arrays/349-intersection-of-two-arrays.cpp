@@ -4,7 +4,7 @@ public:
         unordered_set<int> m(nums1.begin(), nums1.end());
         vector<int> res;
         for (auto a : nums2)
-            if (m.count(a)) {
+            if (m.count(a)>0) {
                 res.push_back(a);
                 m.erase(a);
             }
